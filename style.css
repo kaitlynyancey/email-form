@@ -1,0 +1,67 @@
+h2{
+  font-family:'Courier New', Courier, monospace;
+  margin: 20px 60px;
+  border-bottom: 2px solid darkgray
+}
+
+img{
+  width:100%;
+  border-radius: 10px;
+}
+
+form input, form textarea{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea{
+  height: 160px;
+}
+
+form label{
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form button{
+  background: black;
+  color: white;
+  border:0;
+  border-radius: 6px;
+  padding: 6px 16px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+form{
+  padding-right: 10px;
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.item{
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double{
+  flex: 2;
+}
+
+.item-align{
+  align-self: center;
+}
+
+.group-button{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media all and (min-width: 800px){
+  .group{
+    flex-direction: row;
+  }
+}
